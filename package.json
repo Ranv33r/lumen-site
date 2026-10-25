@@ -1,0 +1,13 @@
+{
+  "name": "lumen-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal static site with Vercel serverless API routes and no database.",
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
